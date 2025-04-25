@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -29,56 +28,69 @@ const HeroSection = () => {
         <div>
             {/* Modal */}
             {isModalOpen && (
-               <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-50">
-               <div className="bg-white p-8 rounded-lg w-96">
-                   <h2 className="text-3xl font-semibold mb-4 text-center text-[#CE3852]">Enquiry Form</h2>
-                   <h4 className=" font-semibold mb-4 text-center text-[#CE3852]">Please fill out the form below, and we’ll get back to you shortly.</h4>
+              <div className="fixed inset-0 bg-gray-900/60 flex justify-center items-center z-[999]">
+    <div className="bg-gradient-to-r from-[#CE3852] to-[#FF7B7B] p-6 rounded-lg w-full max-w-lg shadow-2xl transform transition-transform duration-500 ease-in-out scale-95 hover:scale-100">
+                        <h2 className="text-3xl font-extrabold text-white text-center mb-4 tracking-wide drop-shadow-md" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                            Enquiry Form
+                        </h2>
 
-           
-                   <p>Name</p>
-                   <input
-                       type="text"
-                       placeholder="Enter your Name"
-                       value={input1}
-                       onChange={(e) => setInput1(e.target.value)}
-                       className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-                   />
-                   <p>Mobile Number</p>
-                   <input
-                       type="text"
-                       placeholder="Enter Your Mobile Number"
-                       value={input2}
-                       onChange={(e) => setInput2(e.target.value)}
-                       className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-                   />
-                   <p>Email</p>
-                   <input
-                       type="text"
-                       placeholder="Enter Your Email"
-                       value={input3}
-                       onChange={(e) => setInput3(e.target.value)}
-                       className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-                   />
-                   
-                   {/* Centered Buttons */}
-                   <div className="flex justify-center space-x-4 mt-6">
-                       <button
-                           onClick={handleSubmit}
-                           className="bg-[#CE3852] text-white px-6 py-2 rounded-lg"
-                       >
-                           Submit
-                       </button>
-                       <button
-                           onClick={closeModal}
-                           className="text-gray-600 px-6 py-2 rounded-lg border border-gray-300"
-                       >
-                           Close
-                       </button>
-                   </div>
-               </div>
-           </div>
-           
+                        <h4 className="font-medium text-lg text-white text-center mb-6 drop-shadow-md opacity-90">Fill out the form, and we’ll get back to you shortly.</h4>
 
+                        <div className="space-y-4">
+                            <div>
+                                <label htmlFor="name" className="text-lg font-semibold text-white">Name</label>
+                                <input
+                                    id="name"
+                                    type="text"
+                                    placeholder="Enter your Name"
+                                    value={input1}
+                                    onChange={(e) => setInput1(e.target.value)}
+                                    className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                />
+                            </div>
+
+                            <div>
+                                <label htmlFor="mobile" className="text-lg font-semibold text-white">Mobile Number</label>
+                                <input
+                                    id="mobile"
+                                    type="text"
+                                    placeholder="Enter Your Mobile Number"
+                                    value={input2}
+                                    onChange={(e) => setInput2(e.target.value)}
+                                    className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                />
+                            </div>
+
+                            <div>
+                                <label htmlFor="email" className="text-lg font-semibold text-white">Email</label>
+                                <input
+                                    id="email"
+                                    type="text"
+                                    placeholder="Enter Your Email"
+                                    value={input3}
+                                    onChange={(e) => setInput3(e.target.value)}
+                                    className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                />
+                            </div>
+                        </div>
+
+                        {/* Centered Buttons */}
+                        <div className="flex justify-center space-x-6 mt-6">
+                            <button
+                                onClick={handleSubmit}
+                                className="bg-white text-[#CE3852] px-6 py-2 rounded-lg shadow-lg hover:bg-[#FF7B7B] hover:text-white transition-all ease-in-out duration-300 transform hover:scale-105"
+                            >
+                                Submit
+                            </button>
+                            <button
+                                onClick={closeModal}
+                                className="bg-transparent text-white px-6 py-2 rounded-lg border-2 border-white hover:bg-white hover:text-[#CE3852] transition-all ease-in-out duration-300 transform hover:scale-105"
+                            >
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
             )}
             {/* Hero Section */}
             <div className="pt-20 pb-24 bg-[#CE3852]">
@@ -112,10 +124,6 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
             <div className="w-full min-h-[648px] md:min-h-[653px] grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-16 py-10 items-center">
                 {/* Left content */}
                 <div className="flex flex-col justify-start gap-6">

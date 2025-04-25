@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 function page() {
     return (
         <div>
@@ -124,8 +123,8 @@ function page() {
 
             <div className="flex flex-col items-center justify-center text-center py-8 px-4 bg-gray-100 rounded-lg shadow-lg w-full">
                 <h6 className="text-gray-800 text-xl font-semibold leading-relaxed mb-4">
-                    <span className="text-black text-3xl">”</span> Many of Anand Volcanic Classes' students have made their mark in prestigious exams, securing top ranks in IIT JEE, NEET, and school boards. The institute is proud of its success stories and continues to inspire future generations of students to aim higher and achieve their academic goals.
-                    <span className="text-black text-3xl">”</span>
+                    <span className="text-black text-3xl">&quot;</span> Many of Anand Volcanic Classes&apos; students have made their mark in prestigious exams, securing top ranks in IIT JEE, NEET, and school boards. The institute is proud of its success stories and continues to inspire future generations of students to aim higher and achieve their academic goals.
+                    <span className="text-black text-3xl">&quot;</span>
                 </h6>
                 <p className="text-gray-700 text-lg font-medium">
                     <span className="text-black">-Anand Kumar</span>
@@ -260,42 +259,42 @@ function page() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                         {/* Testimonial 1 */}
                         <div className="bg-gradient-to-tl from-[#FF8E72] to-[#CE3852] p-8 rounded-lg shadow-xl transform transition duration-300 hover:scale-105 hover:shadow-2xl hover:opacity-90">
-                            <p className="text-lg text-white mb-4">"The experience here has been life-changing! The faculty and staff are so supportive, and the programs helped me develop both personally and professionally."</p>
+                            <p className="text-lg text-white mb-4">&quot;The experience here has been life-changing! The faculty and staff are so supportive, and the programs helped me develop both personally and professionally.&quot;</p>
                             <p className="font-semibold text-white">John Doe</p>
                             <p className="text-white opacity-80">JEE 2025 Graduate</p>
                         </div>
 
                         {/* Testimonial 2 */}
                         <div className="bg-gradient-to-tl from-[#FF8E72] to-[#CE3852] p-8 rounded-lg shadow-xl transform transition duration-300 hover:scale-105 hover:shadow-2xl hover:opacity-90">
-                            <p className="text-lg text-white mb-4">"I am grateful for all the skills I learned during my time here. The resources provided helped me ace my exams and truly boosted my confidence."</p>
+                            <p className="text-lg text-white mb-4">&quot;I am grateful for all the skills I learned during my time here. The resources provided helped me ace my exams and truly boosted my confidence.&quot;</p>
                             <p className="font-semibold text-white">Jane Smith</p>
                             <p className="text-white opacity-80">Medical Student</p>
                         </div>
 
                         {/* Testimonial 3 */}
                         <div className="bg-gradient-to-tl from-[#FF8E72] to-[#CE3852] p-8 rounded-lg shadow-xl transform transition duration-300 hover:scale-105 hover:shadow-2xl hover:opacity-90">
-                            <p className="text-lg text-white mb-4">"The interactive sessions and expert guidance were key to my success. I highly recommend this to anyone looking for top-notch education."</p>
+                            <p className="text-lg text-white mb-4">&quot;The interactive sessions and expert guidance were key to my success. I highly recommend this to anyone looking for top-notch education.&quot;</p>
                             <p className="font-semibold text-white">Sam Williams</p>
                             <p className="text-white opacity-80">Engineering Aspirant</p>
                         </div>
 
                         {/* Testimonial 4 */}
                         <div className="bg-gradient-to-tl from-[#FF8E72] to-[#CE3852] p-8 rounded-lg shadow-xl transform transition duration-300 hover:scale-105 hover:shadow-2xl hover:opacity-90">
-                            <p className="text-lg text-white mb-4">"This place helped me discover my true potential. The teaching methods were effective, and I always felt supported along the way."</p>
+                            <p className="text-lg text-white mb-4">&quot;This place helped me discover my true potential. The teaching methods were effective, and I always felt supported along the way.&quot;</p>
                             <p className="font-semibold text-white">Emma Johnson</p>
                             <p className="text-white opacity-80">Commerce Graduate</p>
                         </div>
 
                         {/* Testimonial 5 */}
                         <div className="bg-gradient-to-tl from-[#FF8E72] to-[#CE3852] p-8 rounded-lg shadow-xl transform transition duration-300 hover:scale-105 hover:shadow-2xl hover:opacity-90">
-                            <p className="text-lg text-white mb-4">"A wonderful experience! The community here is incredible, and I learned so much that I couldn't have imagined elsewhere."</p>
+                            <p className="text-lg text-white mb-4">&quot;A wonderful experience! The community here is incredible, and I learned so much that I couldn&apos;t have imagined elsewhere.&quot;</p>
                             <p className="font-semibold text-white">Michael Brown</p>
                             <p className="text-white opacity-80">Art & Design Student</p>
                         </div>
 
                         {/* Testimonial 6 */}
                         <div className="bg-gradient-to-tl from-[#FF8E72] to-[#CE3852] p-8 rounded-lg shadow-xl transform transition duration-300 hover:scale-105 hover:shadow-2xl hover:opacity-90">
-                            <p className="text-lg text-white mb-4">"I’ve been able to grow both academically and personally, thanks to the guidance from my instructors and the wide range of resources available."</p>
+                            <p className="text-lg text-white mb-4">&quot;I’ve been able to grow both academically and personally, thanks to the guidance from my instructors and the wide range of resources available.&quot;</p>
                             <p className="font-semibold text-white">Olivia Martinez</p>
                             <p className="text-white opacity-80">Science Major</p>
                         </div>

@@ -102,7 +102,7 @@ const page = () => {
                     <li><strong className="text-[#CE3852]">Online Learning Platforms:</strong> Coursera, Khan Academy, Vedantu jaise online platforms se extra lessons aur mock tests karein.</li>
                     <li><strong className="text-[#CE3852]">YouTube Channels:</strong> YouTube par various educational channels ko follow karein jaise Unacademy, Physics Wallah, aur LearnViral for in-depth topic understanding.</li>
                     <li><strong className="text-[#CE3852]">Previous Year Papers:</strong> Previous year ke papers ko solve karna important hai, taaki aapko exam pattern aur important topics ka idea ho.</li>
-                    <li><strong className="text-[#CE3852]">Apps for Time Management:</strong> Time management apps like "Forest" or "Pomodone" ko use karke focused study sessions banaayein.</li>
+                    <li><strong className="text-[#CE3852]">Apps for Time Management:</strong> Time management apps like &quot;Forest&quot; or &quot;Pomodone&quot; ko use karke focused study sessions banaayein.</li>
                 </ul>
             </div>
 

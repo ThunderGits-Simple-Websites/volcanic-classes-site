@@ -1,14 +1,16 @@
-'use client'; // Mark this as a client component
+'use client';
 
 import '@/assets/styles/app.css';
 import Navbar from './Navbar';
-import { usePathname } from 'next/navigation';
-import { metadata } from './metadata';  // Import metadata from the separate file
+import { metadata } from './metadata';
 import Foolter from './Foolter';
+import { ReactNode } from 'react';
 
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
-export default function RootLayout({ children }) {
-  const pathname = usePathname();
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <head>
@@ -17,9 +19,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" href={metadata.icons.icon} />
       </head>
       <body>
-         <Navbar />
+        <Navbar />
         {children}
-        <Foolter/>
+        <Foolter />
       </body>
     </html>
   );

@@ -37,7 +37,7 @@ function page() {
 
                     {/* Section Description */}
                     <p className="text-lg text-gray-700 mb-8">
-                        Get ready for NEET UG 2024! Prepare with the best courses and resources. Here's all you need to know about NEET 2024.
+                        Get ready for NEET UG 2024! Prepare with the best courses and resources. Here&apos;s all you need to know about NEET 2024.
                     </p>
 
                     {/* Image Section */}
@@ -80,7 +80,7 @@ function page() {
                         <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                             <div className="text-5xl mb-4 text-[#CE3852]">🎓</div>
                             <h3 className="text-xl font-semibold mb-2 text-[#CE3852]">Expert Faculty</h3>
-                            <p className="text-gray-700 text-sm">Learn from India's top educators with years of experience in NEET coaching.</p>
+                            <p className="text-gray-700 text-sm">Learn from India&apos;s top educators with years of experience in NEET coaching.</p>
                         </div>
 
                         {/* Feature 2 */}

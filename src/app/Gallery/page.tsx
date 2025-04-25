@@ -5,19 +5,16 @@ const page = () => {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
   const images = [
-    "/assets/images/events/e1.jpeg",
-    "/assets/images/events/e2.jpeg",
-    "/assets/images/events/e3.jpeg",
-    "/assets/images/events/e4.jpeg",
-    "/assets/images/events/e5.jpeg",
-    "/assets/images/library.jpeg",
+    "https://thebrightpath.in/assets/images/events/e1.jpeg",
+    "https://thebrightpath.in/assets/images/events/e2.jpeg",
+    "https://thebrightpath.in/assets/images/events/e3.jpeg",
+    "https://thebrightpath.in/assets/images/events/e4.jpeg",
+    "https://thebrightpath.in/assets/images/events/e5.jpeg",
+    "https://thebrightpath.in/assets/images/events/e1.jpeg",
   ];
 
   const totalSlides = images.length;
 
-  const showSlide = (index) => {
-    setCurrentSlideIndex(index);
-  };
 
   const nextSlide = () => {
     setCurrentSlideIndex((prev) => (prev === totalSlides - 1 ? 0 : prev + 1));
@@ -29,41 +26,36 @@ const page = () => {
 
   return (
     <div>
-      <section className="relative w-full h-screen">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1600&q=80"
-            alt="Gallery Background"
-            className="w-full h-full object-cover"
-          />
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-50" />
-        </div>
-
+      <section
+        className="relative w-full h-screen bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1521747116042-5a810fda9664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg0MnwwfDF8c2VhY3J8Nnx8Z2FsbGVyeSUyQ3JlZ2lzdHJhdGlvbnxlbnwwfHx8fDE2NzkwODI3OTg&ixlib=rb-1.2.1&q=80')",
+        }}
+      >
         {/* Content */}
-        <div className="relative z-10 flex flex-col justify-center items-center w-full h-full text-center text-white px-6">
+        <div className="relative z-10 flex flex-col justify-center items-center w-full h-full text-center text-white px-6 mt-20">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 drop-shadow-lg text-[#CE3852]">
-            Welcome to Our Gallery
+            Welcome to Gallery
           </h1>
-          <p className="text-lg md:text-2xl mb-6 drop-shadow-md text-white/80">
+          <p className="text-lg md:text-2xl mb-6 drop-shadow-md text-white/80 italic text-center opacity-90 shadow-xl">
             Explore vibrant moments from our JEE & NEET learning environment.
           </p>
+
           <a
             href="#services"
-            className="inline-block bg-[#CE3852] text-white px-8 py-4 font-medium rounded-lg shadow-lg hover:bg-[#b72e46] transition"
+            className="inline-block bg-[#CE3852] text-white px-8 py-4 font-medium rounded-lg shadow-lg hover:bg-[#b72e46] transition mt-12"
           >
             Learn More
           </a>
         </div>
       </section>
-
       <div className="container px-5 py-24 mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="sm:text-4xl text-3xl font-bold text-[#CE3852]">Gallery</h2>
           <p className="text-lg leading-relaxed text-gray-700 mt-4 max-w-3xl mx-auto">
-            Explore the exciting programs, engaging events, and untold success stories of "The Bright Path" through our visual gallery. This gallery offers you a chance to connect with our journey and the inspiring achievements of our students.
+            Explore the exciting programs, engaging events, and untold success stories of &quot;The Bright Path&quot; through our visual gallery. This gallery offers you a chance to connect with our journey and the inspiring achievements of our students.
           </p>
         </div>
         {/* Carousel Wrapper */}
@@ -138,7 +130,7 @@ const page = () => {
             onClick={prevSlide}
             className="absolute top-0 left-0 px-6 mt-48 py-3 text-white bg-gray-900 bg-opacity-50 hover:bg-opacity-75 focus:outline-none transform -translate-y-1/2 rounded-full"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <path d="M15 19l-7-7 7-7"></path>
             </svg>
           </button>
@@ -223,7 +215,6 @@ const page = () => {
                 allowFullScreen
               ></iframe>
             </div>
-
             {/* Video 6 */}
             <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
               <iframe
@@ -238,9 +229,7 @@ const page = () => {
           </div>
         </div>
       </section>
-
     </div>
   )
 }
-
 export default page
