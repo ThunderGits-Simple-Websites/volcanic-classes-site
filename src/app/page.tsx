@@ -7,6 +7,7 @@ const HeroSection = () => {
     const [input1, setInput1] = useState(""); // First input value
     const [input2, setInput2] = useState(""); // Second input value
     const [input3, setInput3] = useState(""); // Second input value
+    const [selectedOption, setSelectedOption] = useState('');
     useEffect(() => {
         setIsModalOpen(true); // Set modal to open when component mounts
     }, []);
@@ -15,6 +16,10 @@ const HeroSection = () => {
     const closeModal = () => {
         setIsModalOpen(false);
     };
+    const handleChange = (e) => {
+        setSelectedOption(e.target.value);
+    };
+
 
     // Function to handle form submission
     const handleSubmit = () => {
@@ -28,14 +33,12 @@ const HeroSection = () => {
         <div>
             {/* Modal */}
             {isModalOpen && (
-              <div className="fixed inset-0 bg-gray-900/60 flex justify-center items-center z-[999]">
-    <div className="bg-gradient-to-r from-[#CE3852] to-[#FF7B7B] p-6 rounded-lg w-full max-w-lg shadow-2xl transform transition-transform duration-500 ease-in-out scale-95 hover:scale-100">
+                <div className="fixed inset-0 bg-gray-900/60 flex justify-center items-center z-[999]">
+                    <div className="bg-gradient-to-r from-[#CE3852] to-[#FF7B7B] p-6 rounded-lg w-full max-w-lg shadow-2xl transform transition-transform duration-500 ease-in-out scale-95 hover:scale-100">
                         <h2 className="text-3xl font-extrabold text-white text-center mb-4 tracking-wide drop-shadow-md" style={{ fontFamily: 'Poppins, sans-serif' }}>
                             Enquiry Form
                         </h2>
-
                         <h4 className="font-medium text-lg text-white text-center mb-6 drop-shadow-md opacity-90">Fill out the form, and we’ll get back to you shortly.</h4>
-
                         <div className="space-y-4">
                             <div>
                                 <label htmlFor="name" className="text-lg font-semibold text-white">Name</label>
@@ -45,10 +48,9 @@ const HeroSection = () => {
                                     placeholder="Enter your Name"
                                     value={input1}
                                     onChange={(e) => setInput1(e.target.value)}
-                                    className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                    className="w-full p-3  border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
                                 />
                             </div>
-
                             <div>
                                 <label htmlFor="mobile" className="text-lg font-semibold text-white">Mobile Number</label>
                                 <input
@@ -57,10 +59,9 @@ const HeroSection = () => {
                                     placeholder="Enter Your Mobile Number"
                                     value={input2}
                                     onChange={(e) => setInput2(e.target.value)}
-                                    className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                    className="w-full p-3  border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
                                 />
                             </div>
-
                             <div>
                                 <label htmlFor="email" className="text-lg font-semibold text-white">Email</label>
                                 <input
@@ -69,11 +70,26 @@ const HeroSection = () => {
                                     placeholder="Enter Your Email"
                                     value={input3}
                                     onChange={(e) => setInput3(e.target.value)}
-                                    className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                    className="w-full p-3  border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
                                 />
                             </div>
                         </div>
-
+                        <div className="w-full mt-3 max-w-lg mx-auto">
+                            <label htmlFor="service" className="block text-lg font-semibold text-white mb-2">
+                                Select Service
+                            </label>
+                            <select
+                                id="service"
+                                value={selectedOption}
+                                onChange={handleChange}
+                                className="w-full p-3 mb-4 border bg-gradient-to-r from-[#CE3852] to-[#FF7B7B] border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none text-[#712a31] transition-all"
+                            >
+                                <option value="">-- Select a Service --</option>
+                                <option value="product-enquiry">IIT-JEE</option>
+                                <option value="support">NEET</option>
+                                <option value="other">11th&12th Board</option>
+                            </select>
+                        </div>
                         {/* Centered Buttons */}
                         <div className="flex justify-center space-x-6 mt-6">
                             <button
@@ -91,6 +107,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
+
             )}
             {/* Hero Section */}
             <div className="pt-20 pb-24 bg-[#CE3852]">
@@ -98,7 +115,7 @@ const HeroSection = () => {
                     {/* Heading */}
                     <div className="md:col-start-3 mt-10 md:col-span-8">
                         <h1 className="text-white font-montserrat font-extrabold text-4xl md:text-6xl leading-tight md:leading-[1.2]">
-                            Top Volcanic Classes for <br className="hidden md:block" /> JEE and NEET
+                            Top Physics Classes for <br className="hidden md:block" /> JEE and NEET
                         </h1>
                     </div>
 
@@ -135,8 +152,7 @@ const HeroSection = () => {
                     </p>
                     <div>
                         <Link
-                            href="/enquiry"
-                            target="_blank"
+                            href="/AboutUs"
                             className="bg-[#CE3852] text-white font-semibold font-montserrat px-8 py-3 rounded-full 
              border-2 border-[#CE3852] transition-all duration-300 shadow-md hover:bg-[#CE3852] 
              hover:text-white hover:shadow-lg"

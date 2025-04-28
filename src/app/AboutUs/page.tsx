@@ -21,7 +21,7 @@ function page() {
                         At the heart of our organization is a shared commitment to education, innovation, and impact. We’re not just a team — we’re a community of passionate educators and mentors dedicated to helping students unlock their full potential. Through personalized guidance, cutting-edge resources, and a supportive environment, we aim to shape confident, future-ready individuals.
                     </p>
                     <a
-                        href="#contact"
+                        href="/ContactUs"
                         className="inline-block mt-6 bg-[#CE3852]/90 px-6 py-3 text-white/90 font-medium rounded-lg shadow hover:bg-[#b72e46] transition"
                     >
                         Contact Us

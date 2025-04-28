@@ -3,7 +3,7 @@
 import '@/assets/styles/app.css';
 import Navbar from './Navbar';
 import { metadata } from './metadata';
-import Foolter from './Foolter';
+import Footer from './Footer';
 import { ReactNode } from 'react';
 
 interface RootLayoutProps {
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body>
         <Navbar />
         {children}
-        <Foolter />
+        <Footer />
       </body>
     </html>
   );

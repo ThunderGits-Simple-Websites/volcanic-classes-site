@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Foolter() {
+function Footer() {
     return (
         <div className="bg-[#CE3852] p-6 rounded-lg">
             <div className="flex flex-col lg:flex-row justify-between gap-6">
@@ -79,4 +79,4 @@ function Foolter() {
     )
 }
 
-export default Foolter
+export default Footer
