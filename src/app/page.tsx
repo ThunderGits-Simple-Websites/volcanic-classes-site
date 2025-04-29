@@ -34,79 +34,92 @@ const HeroSection = () => {
             {/* Modal */}
             {isModalOpen && (
                 <div className="fixed inset-0 bg-gray-900/60 flex justify-center items-center z-[999]">
-                    <div className="bg-gradient-to-r from-[#CE3852] to-[#FF7B7B] p-6 rounded-lg w-full max-w-lg shadow-2xl transform transition-transform duration-500 ease-in-out scale-95 hover:scale-100">
-                        <h2 className="text-3xl font-extrabold text-white text-center mb-4 tracking-wide drop-shadow-md" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                    <div className="bg-white p-6 rounded-lg w-full max-w-lg shadow-2xl transform transition-transform duration-500 ease-in-out scale-95 hover:scale-100">
+                        <h2
+                            className="text-3xl font-extrabold text-black text-center mb-4 tracking-wide drop-shadow-md"
+                            style={{ fontFamily: 'Poppins, sans-serif' }}
+                        >
                             Enquiry Form
                         </h2>
-                        <h4 className="font-medium text-lg text-white text-center mb-6 drop-shadow-md opacity-90">Fill out the form, and we’ll get back to you shortly.</h4>
+                        <h4 className="font-medium text-lg text-gray-800 text-center mb-6 drop-shadow-md opacity-90">
+                            Fill out the form, and we’ll get back to you shortly.
+                        </h4>
                         <div className="space-y-4">
                             <div>
-                                <label htmlFor="name" className="text-lg font-semibold text-white">Name</label>
+                                <label htmlFor="name" className="text-lg font-semibold text-gray-800">
+                                    Name
+                                </label>
                                 <input
                                     id="name"
                                     type="text"
                                     placeholder="Enter your Name"
                                     value={input1}
                                     onChange={(e) => setInput1(e.target.value)}
-                                    className="w-full p-3  border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                    className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition-all text-black"
                                 />
                             </div>
                             <div>
-                                <label htmlFor="mobile" className="text-lg font-semibold text-white">Mobile Number</label>
+                                <label htmlFor="mobile" className="text-lg font-semibold text-gray-800">
+                                    Mobile Number
+                                </label>
                                 <input
                                     id="mobile"
                                     type="text"
                                     placeholder="Enter Your Mobile Number"
                                     value={input2}
                                     onChange={(e) => setInput2(e.target.value)}
-                                    className="w-full p-3  border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                    className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition-all text-black"
                                 />
                             </div>
                             <div>
-                                <label htmlFor="email" className="text-lg font-semibold text-white">Email</label>
+                                <label htmlFor="email" className="text-lg font-semibold text-gray-800">
+                                    Email
+                                </label>
                                 <input
                                     id="email"
                                     type="text"
                                     placeholder="Enter Your Email"
                                     value={input3}
                                     onChange={(e) => setInput3(e.target.value)}
-                                    className="w-full p-3  border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none transition-all"
+                                    className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition-all text-black"
                                 />
                             </div>
                         </div>
                         <div className="w-full mt-3 max-w-lg mx-auto">
-                            <label htmlFor="service" className="block text-lg font-semibold text-white mb-2">
+                            <label htmlFor="service" className="block text-lg font-semibold text-gray-800 mb-2">
                                 Select Service
                             </label>
                             <select
                                 id="service"
                                 value={selectedOption}
                                 onChange={handleChange}
-                                className="w-full p-3 mb-4 border bg-gradient-to-r from-[#CE3852] to-[#FF7B7B] border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF7B7B] focus:outline-none text-[#712a31] transition-all"
+                                className="w-full p-3 mb-4 border bg-white border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none text-black transition-all"
                             >
-                                <option value="">-- Select a Service --</option>
-                                <option value="product-enquiry">IIT-JEE</option>
-                                <option value="support">NEET</option>
-                                <option value="other">11th&12th Board</option>
+                                <option value="" className="text-black">-- Select a Service --</option>
+                                <option value="product-enquiry" className="text-black">IIT-JEE</option>
+                                <option value="support" className="text-black">NEET</option>
+                                <option value="other" className="text-black">11th & 12th Board</option>
                             </select>
+
                         </div>
                         {/* Centered Buttons */}
                         <div className="flex justify-center space-x-6 mt-6">
                             <button
                                 onClick={handleSubmit}
-                                className="bg-white text-[#CE3852] px-6 py-2 rounded-lg shadow-lg hover:bg-[#FF7B7B] hover:text-white transition-all ease-in-out duration-300 transform hover:scale-105"
+                                className="bg-[#CE3852] text-white px-6 py-2 rounded-lg shadow-lg hover:bg-[#FF7B7B] transition-all ease-in-out duration-300 transform hover:scale-105"
                             >
                                 Submit
                             </button>
                             <button
                                 onClick={closeModal}
-                                className="bg-transparent text-white px-6 py-2 rounded-lg border-2 border-white hover:bg-white hover:text-[#CE3852] transition-all ease-in-out duration-300 transform hover:scale-105"
+                                className="bg-transparent text-[#CE3852] px-6 py-2 rounded-lg border-2 border-[#CE3852] hover:bg-[#CE3852] hover:text-white transition-all ease-in-out duration-300 transform hover:scale-105"
                             >
                                 Close
                             </button>
                         </div>
                     </div>
                 </div>
+
 
             )}
             {/* Hero Section */}
@@ -145,10 +158,10 @@ const HeroSection = () => {
                 {/* Left content */}
                 <div className="flex flex-col justify-start gap-6">
                     <h3 className="text-4xl md:text-5xl text-[#CE3852] font-bold text-left">
-                        Welcome to Anand Volcanic Classes
+                        Welcome to Physics Classes
                     </h3>
                     <p className="text-base text-gray-600 leading-relaxed">
-                        Anand Kumar Sir, the academy blends hybrid learning (offline Patna campus + online app), a concept‑first pedagogy, personalised mentorship and rigorous, exam‑oriented practice. Its students regularly secure top AIRs in JEE/NEET and 95 %+ board scores, making the institute a recognised name on review platforms, Justdial listings and social media.
+                    Anand Kumar Sir, the academy blends hybrid learning (offline Patna campus + online app), a concept‑first pedagogy, personalised mentorship and rigorous, exam‑oriented practice. Its students regularly secure top AIRs in JEE/NEET and 95 %+ board scores, making the institute a recognised name on review platforms, Justdial listings and social media.
                     </p>
                     <div>
                         <Link
@@ -231,7 +244,7 @@ const HeroSection = () => {
                     >
                         <div className="text-box layout-element__component layout-element__component--GridTextBox flex justify-center items-center py-8 px-4 max-w-3xl mx-auto">
                             <p className="text-gray-700 text-lg md:text-xl text-center">
-                                Anand Volcanic Classes offers top-notch tutorials for JEE and NEET in Patna, ensuring student success.
+                                Physics Classes offers top-notch tutorials for JEE and NEET in Patna, ensuring student success.
                             </p>
                         </div>
                     </div>
@@ -284,7 +297,7 @@ const HeroSection = () => {
 
                         {/* Paragraph */}
                         <p className="text-gray-600 text-lg mb-6">
-                            Specialized training for NEET aspirants, focusing on physics concepts to boost your performance.
+                            Specialized training for NEET aspirants, focusing on Physics concepts to boost your performance.
                         </p>
 
                         {/* Button */}
@@ -312,7 +325,7 @@ const HeroSection = () => {
 
                         {/* Paragraph */}
                         <p className="text-gray-600 text-lg mb-6">
-                            Personalized tuition for Class 11th and 12th, enhancing understanding and application of physics principles.
+                            Personalized tuition for Class 11th and 12th, enhancing understanding and application of Physics principles.
                         </p>
 
                         {/* Button */}
@@ -335,7 +348,7 @@ const HeroSection = () => {
                             In-Depth Lessons & Expert Guidance
                         </h3>
                         <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mt-2">
-                            Watch and experience firsthand how Anand makes Volcanic simple, engaging, and accessible for all learners.
+                            Watch and experience firsthand how makes Physics simple, engaging, and accessible for all learners.
                             Ready to dive deeper? Explore more in our full course sections!
                         </p>
                     </div>
@@ -388,7 +401,7 @@ const HeroSection = () => {
                     <div className="bg-white p-8 rounded-2xl shadow-xl flex flex-col items-center text-center space-y-4 overflow-visible">
                         <div className="text-2xl text-[#CE3852]">★★★★★</div>
                         <p className="text-lg md:text-xl font-light text-[#CE3852]">
-                            Anand Volcanic Classes transformed my understanding of physics. Their teaching methods and depth of knowledge helped me ace my JEE exams with confidence and clarity.
+                            Physics Classes transformed my understanding of physics. Their teaching methods and depth of knowledge helped me ace my JEE exams with confidence and clarity.
                         </p>
                         <img
                             src="https://images.unsplash.com/photo-1596496181861-5fc5346995ba?auto=format&fit=crop&w=100&h=100"
@@ -397,12 +410,11 @@ const HeroSection = () => {
                         />
                         <p className="font-semibold text-base text-[#CE3852]">Anand Kumar</p>
                     </div>
-
                     {/* Testimonial Card 2 */}
                     <div className="bg-white p-8 rounded-2xl shadow-xl flex flex-col items-center text-center space-y-4 overflow-visible">
                         <div className="text-2xl text-[#CE3852]">★★★★★</div>
                         <p className="text-lg md:text-xl font-light text-[#CE3852]">
-                            The problem-solving approach and conceptual clarity I gained at Anand Volcanic Classes made my learning experience fun and effective. Highly recommended!
+                            The problem-solving approach and conceptual clarity I gained at Physics Classes made my learning experience fun and effective. Highly recommended!
                         </p>
                         <img
                             src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=100&h=100"
@@ -493,12 +505,12 @@ const HeroSection = () => {
                     <div className="space-y-4">
                         {[
                             {
-                                q: "What makes Anand Volcanic Classes stand out for JEE and NEET preparation?",
-                                a: "Anand Volcanic Classes offers an unmatched blend of expert faculty, personalized attention, and comprehensive study material. Our teaching methods are designed to simplify complex Volcanic concepts, ensuring a deep understanding and strong conceptual clarity.",
+                                q: "What makes Physics Classes stand out for JEE and NEET preparation?",
+                                a: "Physics Classes offers an unmatched blend of expert faculty, personalized attention, and comprehensive study material. Our teaching methods are designed to simplify complex Physics concepts, ensuring a deep understanding and strong conceptual clarity.",
                             },
                             {
                                 q: "How are the classes structured for JEE and NEET?",
-                                a: "We offer both online and offline classes tailored to your learning pace. The curriculum is broken down into easy-to-understand modules, with a focus on building a strong foundation in Volcanic.",
+                                a: "We offer both online and offline classes tailored to your learning pace. The curriculum is broken down into easy-to-understand modules, with a focus on building a strong foundation in Physics.",
                             },
                             {
                                 q: "Do you provide study materials?",
@@ -509,7 +521,7 @@ const HeroSection = () => {
                                 a: "Yes, we offer free demo classes so that you can get a firsthand experience of our teaching methodology and environment.",
                             },
                             {
-                                q: "How can I enroll in Anand Volcanic Classes?",
+                                q: "How can I enroll in Physics Classes?",
                                 a: "You can enroll easily through our website or by contacting our admission team. We’ll guide you step-by-step.",
                             },
                             {

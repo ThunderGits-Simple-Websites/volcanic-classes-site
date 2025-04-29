@@ -10,7 +10,7 @@ function page() {
                         id="ai-weqNyT"
                     >
                         <h1 className="text-[32px] md:text-[48px] leading-[1.3] font-semibold text-[#CE3852]">
-                            Contact Anand Volcanic Classes
+                            Contact Physics Classes
                         </h1>
                         <div className="layout-element__component layout-element__component--GridTextBox text-center w-full max-w-md mx-auto px-4 mb-6" id="ai-weqNyT">
                             <p className="text-[#56585E] text-base">
@@ -80,7 +80,7 @@ function page() {
                             <div className="mb-6">
                                 <h3 className="text-4xl font-bold tracking-tight mb-3 text-[#CE3852]">Contact Us</h3>
                                 <p className="text-gray-600">
-                                    Visit Anand Volcanic Classes in Patna, Bihar for top-notch JEE and NEET preparation. We are dedicated to your academic success.
+                                    Visit Physics Classes in Patna, Bihar for top-notch JEE and NEET preparation. We are dedicated to your academic success.
                                 </p>
                             </div>
                             <div className="mb-4">

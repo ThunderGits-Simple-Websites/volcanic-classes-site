@@ -35,10 +35,10 @@ function page() {
                     <div>
                         <h2 className="text-4xl font-bold mb-6 text-gray-800">About Us</h2>
                         <p className="text-gray-600 leading-relaxed text-lg">
-                            Anand Volcanic Classes, located in Patna, Bihar, is one of the leading coaching institutes specializing in Volcanic for students preparing for IIT JEE, NEET, and school-level exams.
+                        Physics Classes, located in Patna, Bihar, is one of the leading coaching institutes specializing in Volcanic for students preparing for IIT JEE, NEET, and school-level exams.
                             Known for its outstanding track record and commitment to excellence, the institute has earned a reputation for producing top-tier results year after year.
                             <br /><br />
-                            With expert faculty, personalized attention, flexible learning formats, and a proven track record, Anand Volcanic Classes stands as a pillar of academic excellence.
+                            With expert faculty, personalized attention, flexible learning formats, and a proven track record, Volcanic Classes stands as a pillar of academic excellence.
                             Whether you’re preparing for IIT JEE, NEET, or school exams, this coaching center ensures you are on the right path to achieving your dreams.
                         </p>
                     </div>
@@ -61,11 +61,11 @@ function page() {
                     {/* Heading Section */}
                     <div className="flex flex-col items-start justify-start space-y-4">
                         <h3 className="text-white text-6xl font-semibold tracking-tight">
-                            Why Choose Anand Volcanic Classes?
+                            Why Choose Physics Classes?
                         </h3>
 
                         <p className="text-white text-lg font-light leading-relaxed max-w-md">
-                            Anand Volcanic Classes stands out for its dedication to quality education, personalized approach, and track record of success in competitive exams. Here’s why we are the best choice for your academic journey:
+                        Physics Classes stands out for its dedication to quality education, personalized approach, and track record of success in competitive exams. Here’s why we are the best choice for your academic journey:
                         </p>
                     </div>
 
@@ -123,7 +123,7 @@ function page() {
 
             <div className="flex flex-col items-center justify-center text-center py-8 px-4 bg-gray-100 rounded-lg shadow-lg w-full">
                 <h6 className="text-gray-800 text-xl font-semibold leading-relaxed mb-4">
-                    <span className="text-black text-3xl">&quot;</span> Many of Anand Volcanic Classes&apos; students have made their mark in prestigious exams, securing top ranks in IIT JEE, NEET, and school boards. The institute is proud of its success stories and continues to inspire future generations of students to aim higher and achieve their academic goals.
+                    <span className="text-black text-3xl">&quot;</span> Many of Physics Classes&apos; students have made their mark in prestigious exams, securing top ranks in IIT JEE, NEET, and school boards. The institute is proud of its success stories and continues to inspire future generations of students to aim higher and achieve their academic goals.
                     <span className="text-black text-3xl">&quot;</span>
                 </h6>
                 <p className="text-gray-700 text-lg font-medium">
@@ -141,7 +141,7 @@ function page() {
                             Our Teaching Methodology
                         </h3>
                         <p className="text-lg sm:text-xl text-white/90 mt-6 max-w-3xl mx-auto">
-                            At Anand Volcanic Classes, we blend traditional values with modern educational practices to help students truly understand Physics and excel in competitive exams.
+                            At Physics Classes, we blend traditional values with modern educational practices to help students truly understand Physics and excel in competitive exams.
                         </p>
                     </div>
 
@@ -191,9 +191,9 @@ function page() {
                 <div className="max-w-7xl mx-auto px-6">
                     {/* Section Heading */}
                     <div className="text-center mb-20">
-                        <h2 className="text-5xl text-white/90 font-bold tracking-tight leading-tight mb-4">About Anand Volcanic Classes</h2>
+                        <h2 className="text-5xl text-white/90 font-bold tracking-tight leading-tight mb-4">About Physics Classes</h2>
                         <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-                            We help students crack IIT JEE, NEET, and board exams with concept clarity, personal mentoring, and innovation. Our mission? Making Volcanic feel logical, not intimidating.
+                            We help students crack IIT JEE, NEET, and board exams with concept clarity, personal mentoring, and innovation. Our mission? Making Physics  feel logical, not intimidating.
                         </p>
                         <div className="mt-6 h-1 w-24 mx-auto bg-white/30 rounded-full" />
                     </div>
@@ -203,7 +203,7 @@ function page() {
                         <div>
                             <h3 className="text-3xl font-semibold mb-4 text-white/90">🎯 Our Mission</h3>
                             <p className="text-lg text-white/85 mb-6 leading-relaxed">
-                                To deliver high-impact Volcanic education that empowers students to think, question, and excel. We simplify the toughest topics and make every class an experience worth remembering.
+                            Deliver high‑quality, student‑centric physics education tailored to IIT‑JEE & NEET demands, nurturing analytical thinking and building a strong foundation for future scientists, engineers and medical professionals.
                             </p>
 
                             <h4 className="text-2xl font-semibold mb-4 text-white/90">Why Choose Us?</h4>
@@ -229,7 +229,7 @@ function page() {
                         <div>
                             <h3 className="text-3xl font-semibold mb-4 text-white/90">🌟 Our Vision</h3>
                             <p className="text-lg text-white/85 mb-6 leading-relaxed">
-                                To nurture curious thinkers who don’t just study Volcanic — they experience it. We aim to build a new generation of science lovers who tackle challenges with logic and confidence.
+                            To ignite a lifelong passion for Physics, empowering students with clarity, curiosity and confidence to excel in competitive arenas and beyond.
                             </p>
 
                             <h4 className="text-2xl font-semibold mb-4 text-white/90">What Makes Us Unique?</h4>
@@ -311,17 +311,17 @@ function page() {
                     <div>
                         <h3 className="text-4xl font-bold mb-4">Director&apos;s Message</h3>
                         <p className="text-gray-700 mb-4">
-                            Welcome to <strong>Anand Volcanic Classes</strong>! I am happy to have you with us.
+                            Welcome to <strong>Physics Classes</strong>! I am happy to have you with us.
                             As the director of this institute, I am proud of the strong foundation we provide to
-                            our students in Volcanic. At Anand Volcanic Classes, we make learning Volcanic easy and
+                            our students in Physics. At Anand Physics Classes, we make learning Physics easy and
                             interesting. Our experienced teachers focus on helping each student understand the
                             subject clearly, solve problems confidently, and build a strong knowledge base. We
                             believe every student has the potential to do well. Our goal is to guide you through
-                            your learning journey and make Volcanic enjoyable. With regular practice, real-life
+                            your learning journey and make Physics enjoyable. With regular practice, real-life
                             examples, and continuous support, we are confident that you will succeed.
                         </p>
                         <p className="italic text-gray-600">
-                            Thank you for choosing Anand Volcanic Classes. We are here to help you every step of the way!
+                            Thank you for choosing Physics Classes. We are here to help you every step of the way!
                         </p>
                     </div>
 
