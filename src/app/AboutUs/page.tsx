@@ -46,7 +46,7 @@ function page() {
                     {/* Optional Image or Icon */}
                     <div className="flex justify-center">
                         <img
-                            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=256,fit=crop/m7V5vbDyqehovVja/istockphoto-511353109-612x612-AwvD3WeJ1KCN3L36.jpg"
+                            src="https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-ubrjnui6h3.jpg"
                             alt="Physics Coaching"
                             className="w-full max-w-lg h-auto object-cover"
                         />
@@ -326,9 +326,9 @@ function page() {
                     </div>
 
                     {/* Image Section */}
-                    <div className="w-full max-w-[606px] mx-auto">
+                    <div className="w-full max-w-[406px]  mx-auto">
                         <img
-                            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=544,fit=crop/m7V5vbDyqehovVja/whatsapp-image-2025-01-31-at-12.15.08-AGBnEkB7r3U3P6lm.jpeg"
+                            src="/images/directorImg.png"
                             alt="Director"
                             className="w-full h-auto rounded-lg shadow-md object-cover"
                         />

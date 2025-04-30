@@ -86,12 +86,12 @@ function page() {
                             <div className="mb-4">
                                 <h6 className="text-lg font-semibold mb-1 text-[#CE3852]">Location</h6>
                                 <p className="text-gray-600">
-                                    First Floor, L-1/11, Boring Rd, Near Shiv Mandir, Opp. Krishna Apartment, Sri Krishna Puri, Patna, Bihar - 800001
+                                2nd floor, Shivam Complex, Bank of Baroda building, Near, Khazanchi Rd, Naya Tola, Bhikhana Pahari, Patna, Bihar 800004
                                 </p>
                             </div>
                             <div>
                                 <h6 className="text-lg font-semibold mb-1 text-[#CE3852]">Phone</h6>
-                                <p className="text-gray-600">+91 7004557539</p>
+                                <p className="text-gray-600">+91 9097777365</p>
                             </div>
                         </div>
 

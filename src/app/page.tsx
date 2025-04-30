@@ -16,10 +16,10 @@ const HeroSection = () => {
     const closeModal = () => {
         setIsModalOpen(false);
     };
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
         setSelectedOption(e.target.value);
-    };
-
+      };
+      
 
     // Function to handle form submission
     const handleSubmit = () => {
@@ -33,93 +33,91 @@ const HeroSection = () => {
         <div>
             {/* Modal */}
             {isModalOpen && (
-                <div className="fixed inset-0 bg-gray-900/60 flex justify-center items-center z-[999]">
-                    <div className="bg-white p-6 rounded-lg w-full max-w-lg shadow-2xl transform transition-transform duration-500 ease-in-out scale-95 hover:scale-100">
-                        <h2
-                            className="text-3xl font-extrabold text-black text-center mb-4 tracking-wide drop-shadow-md"
-                            style={{ fontFamily: 'Poppins, sans-serif' }}
-                        >
-                            Enquiry Form
-                        </h2>
-                        <h4 className="font-medium text-lg text-gray-800 text-center mb-6 drop-shadow-md opacity-90">
-                            Fill out the form, and we’ll get back to you shortly.
-                        </h4>
-                        <div className="space-y-4">
-                            <div>
-                                <label htmlFor="name" className="text-lg font-semibold text-gray-800">
-                                    Name
-                                </label>
-                                <input
-                                    id="name"
-                                    type="text"
-                                    placeholder="Enter your Name"
-                                    value={input1}
-                                    onChange={(e) => setInput1(e.target.value)}
-                                    className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition-all text-black"
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="mobile" className="text-lg font-semibold text-gray-800">
-                                    Mobile Number
-                                </label>
-                                <input
-                                    id="mobile"
-                                    type="text"
-                                    placeholder="Enter Your Mobile Number"
-                                    value={input2}
-                                    onChange={(e) => setInput2(e.target.value)}
-                                    className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition-all text-black"
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="email" className="text-lg font-semibold text-gray-800">
-                                    Email
-                                </label>
-                                <input
-                                    id="email"
-                                    type="text"
-                                    placeholder="Enter Your Email"
-                                    value={input3}
-                                    onChange={(e) => setInput3(e.target.value)}
-                                    className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none transition-all text-black"
-                                />
-                            </div>
-                        </div>
-                        <div className="w-full mt-3 max-w-lg mx-auto">
-                            <label htmlFor="service" className="block text-lg font-semibold text-gray-800 mb-2">
-                                Select Service
-                            </label>
-                            <select
-                                id="service"
-                                value={selectedOption}
-                                onChange={handleChange}
-                                className="w-full p-3 mb-4 border bg-white border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none text-black transition-all"
-                            >
-                                <option value="" className="text-black">-- Select a Service --</option>
-                                <option value="product-enquiry" className="text-black">IIT-JEE</option>
-                                <option value="support" className="text-black">NEET</option>
-                                <option value="other" className="text-black">11th & 12th Board</option>
-                            </select>
-
-                        </div>
-                        {/* Centered Buttons */}
-                        <div className="flex justify-center space-x-6 mt-6">
-                            <button
-                                onClick={handleSubmit}
-                                className="bg-[#CE3852] text-white px-6 py-2 rounded-lg shadow-lg hover:bg-[#FF7B7B] transition-all ease-in-out duration-300 transform hover:scale-105"
-                            >
-                                Submit
-                            </button>
-                            <button
-                                onClick={closeModal}
-                                className="bg-transparent text-[#CE3852] px-6 py-2 rounded-lg border-2 border-[#CE3852] hover:bg-[#CE3852] hover:text-white transition-all ease-in-out duration-300 transform hover:scale-105"
-                            >
-                                Close
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
+             <div className="fixed inset-0 bg-gray-900/60 flex justify-center items-center z-[999]">
+             <div className="bg-white p-6 rounded-lg w-full max-w-md shadow-xl transform transition-transform duration-500 ease-in-out scale-95 hover:scale-100">
+                 <h2
+                     className="text-xl font-bold text-black text-center mb-3 tracking-wide drop-shadow-md"
+                     style={{ fontFamily: 'Poppins, sans-serif' }}
+                 >
+                     Enquiry Form
+                 </h2>
+                 <h4 className="font-medium text-sm text-gray-700 text-center mb-4 drop-shadow-md opacity-90">
+                     Fill out the form and we’ll get back to you shortly.
+                 </h4>
+                 <div className="space-y-3">
+                     <div>
+                         <label htmlFor="name" className="text-sm font-semibold text-gray-800">
+                             Name
+                         </label>
+                         <input
+                             id="name"
+                             type="text"
+                             placeholder="Enter your Name"
+                             value={input1}
+                             onChange={(e) => setInput1(e.target.value)}
+                             className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-black focus:outline-none text-sm text-black"
+                         />
+                     </div>
+                     <div>
+                         <label htmlFor="mobile" className="text-sm font-semibold text-gray-800">
+                             Mobile Number
+                         </label>
+                         <input
+                             id="mobile"
+                             type="text"
+                             placeholder="Enter Your Mobile Number"
+                             value={input2}
+                             onChange={(e) => setInput2(e.target.value)}
+                             className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-black focus:outline-none text-sm text-black"
+                         />
+                     </div>
+                     <div>
+                         <label htmlFor="email" className="text-sm font-semibold text-gray-800">
+                             Email
+                         </label>
+                         <input
+                             id="email"
+                             type="text"
+                             placeholder="Enter Your Email"
+                             value={input3}
+                             onChange={(e) => setInput3(e.target.value)}
+                             className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-black focus:outline-none text-sm text-black"
+                         />
+                     </div>
+                 </div>
+                 <div className="w-full mt-3">
+                     <label htmlFor="service" className="block text-sm font-semibold text-gray-800 mb-1">
+                         Select Service
+                     </label>
+                     <select
+                         id="service"
+                         value={selectedOption}
+                         onChange={handleChange}
+                         className="w-full p-2 border bg-white border-gray-300 rounded-md focus:ring-2 focus:ring-black focus:outline-none text-sm text-black"
+                     >
+                         <option value="" className="text-black">-- Select a Service --</option>
+                         <option value="product-enquiry" className="text-black">IIT-JEE</option>
+                         <option value="support" className="text-black">NEET</option>
+                         <option value="other" className="text-black">11th & 12th Board</option>
+                     </select>
+                 </div>
+                 <div className="flex justify-center space-x-4 mt-4">
+                     <button
+                         onClick={handleSubmit}
+                         className="bg-[#CE3852] text-white px-4 py-2 text-sm rounded-md shadow hover:bg-[#FF7B7B] transition-all duration-300 transform hover:scale-105"
+                     >
+                         Submit
+                     </button>
+                     <button
+                         onClick={closeModal}
+                         className="bg-transparent text-[#CE3852] px-4 py-2 text-sm rounded-md border-2 border-[#CE3852] hover:bg-[#CE3852] hover:text-white transition-all duration-300 transform hover:scale-105"
+                     >
+                         Close
+                     </button>
+                 </div>
+             </div>
+         </div>
+         
 
             )}
             {/* Hero Section */}
@@ -178,7 +176,7 @@ const HeroSection = () => {
                 {/* Right image */}
                 <div className="flex justify-center items-center">
                     <img
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=455,fit=crop/m7V5vbDyqehovVja/whatsapp_image_2025-01-31_at_12.15.05-removebg-preview-YX4aeowNXRtOEjn6.png"
+                        src="https://images.jdmagicbox.com/comp/patna/p5/0612px612.x612.140515173853.z9p5/catalogue/volcanic-classes-ashok-raj-path-patna-tutorials-1nmrl0c.jpg"
                         alt="Rajesh Physics Classes"
                         className="w-full h-auto max-w-[606px] max-h-[455px] object-contain"
                     />

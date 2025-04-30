@@ -47,7 +47,7 @@ function Footer() {
                 {/* Contact Section */}
                 <div className="flex-1 space-y-2">
                     <p className="text-white text-lg font-semibold">Contact</p>
-                    <p className="text-white text-lg font-semibold">+91 7004557539</p>
+                    <p className="text-white text-lg font-semibold">+91 9097777365</p>
                     <p className="text-white text-lg font-semibold">AnandKumar1234@gmail.com</p>
                 </div>
                 {/* Newsletter Section */}
