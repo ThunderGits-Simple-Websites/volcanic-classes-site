@@ -161,7 +161,7 @@ const HeroSection = () => {
                         Welcome to Physics Classes
                     </h3>
                     <p className="text-base text-gray-600 leading-relaxed">
-                    Anand Kumar Sir, the academy blends hybrid learning (offline Patna campus + online app), a concept‑first pedagogy, personalised mentorship and rigorous, exam‑oriented practice. Its students regularly secure top AIRs in JEE/NEET and 95 %+ board scores, making the institute a recognised name on review platforms, Justdial listings and social media.
+                        Anand Kumar Sir, the academy blends hybrid learning (offline Patna campus + online app), a concept‑first pedagogy, personalised mentorship and rigorous, exam‑oriented practice. Its students regularly secure top AIRs in JEE/NEET and 95 %+ board scores, making the institute a recognised name on review platforms, Justdial listings and social media.
                     </p>
                     <div>
                         <Link
@@ -342,7 +342,7 @@ const HeroSection = () => {
             <section className="bg-[#eafaea] px-4 py-12 md:py-20">
                 <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                    {/* Heading (full width) */}
+                    {/* Heading */}
                     <div className="md:col-span-3 text-center">
                         <h3 className="text-[36px] md:text-[52px] font-semibold text-[#CE3852] leading-snug mb-4">
                             In-Depth Lessons & Expert Guidance
@@ -357,7 +357,7 @@ const HeroSection = () => {
                     <div className="w-full">
                         <div className="w-full h-[250px]">
                             <iframe
-                                src="https://www.youtube.com/embed/YomUR5b6lCk"
+                                src="https://www.youtube.com/embed/iyKMsH83uPA"
                                 title="Rajesh Physics Video 1"
                                 className="w-full h-full rounded-lg"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -366,12 +366,11 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-
                     {/* Video 2 */}
                     <div className="w-full">
                         <div className="w-full h-[250px]">
                             <iframe
-                                src="https://www.youtube.com/embed/YomUR5b6lCk"
+                                src="https://www.youtube.com/embed/TFREcIRib2Y"
                                 title="Rajesh Physics Video 2"
                                 className="w-full h-full rounded-lg"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -384,7 +383,7 @@ const HeroSection = () => {
                     <div className="w-full">
                         <div className="w-full h-[250px]">
                             <iframe
-                                src="https://www.youtube.com/embed/YomUR5b6lCk"
+                                src="https://www.youtube.com/embed/QAkQ7_1D_NM"
                                 title="Rajesh Physics Video 3"
                                 className="w-full h-full rounded-lg"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -395,6 +394,7 @@ const HeroSection = () => {
 
                 </div>
             </section>
+
             <section className="bg-white px-4 py-20 text-white">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
                     {/* Testimonial Card 1 */}

@@ -150,85 +150,87 @@ const page = () => {
         </div>
       </div>
       <section className="py-24 bg-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#CE3852] mb-12">
-            Gallery: Top Physics Classes for JEE & NEET
-          </h2>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-4xl md:text-5xl font-bold text-center text-[#CE3852] mb-12">
+      Gallery: Top Physics Classes for JEE & NEET
+    </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {/* Video 1 */}
-            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-              <iframe
-                className="w-full h-64"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"  // Replace with your JEE or NEET class video link
-                title="JEE Classroom Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {/* Video 1 */}
+      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/PRqP83O2Zag"
+          title="JEE Classroom Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
 
-            {/* Video 2 */}
-            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-              <iframe
-                className="w-full h-64"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY"  // Replace with your JEE or NEET lab class video link
-                title="NEET Lab Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+      {/* Video 2 */}
+      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/TFREcIRib2Y"
+          title="NEET Lab Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
 
-            {/* Video 3 */}
-            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-              <iframe
-                className="w-full h-64"
-                src="https://www.youtube.com/watch?v=Jf5M7w3jRnM"  // Replace with your teacher interaction video
-                title="Teacher Interaction Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+      {/* Video 3 */}
+      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/bv11vcFBLEU"
+          title="Teacher Interaction Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
 
-            {/* Video 4 */}
-            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-              <iframe
-                className="w-full h-64"
-                src="https://www.youtube.com/embed/kJQP7kiw5Fk"  // Replace with your JEE Batch video
-                title="JEE Batch Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+      {/* Video 4 */}
+      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/2xplWGp9CDs"
+          title="JEE Batch Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
 
-            {/* Video 5 */}
-            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-              <iframe
-                className="w-full h-64"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"  // Replace with your NEET Batch video
-                title="NEET Batch Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            {/* Video 6 */}
-            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-              <iframe
-                className="w-full h-64"
-                src="https://www.youtube.com/watch?v=U2p04ShBcC0"  // Replace with your Workshop video
-                title="Workshop Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Video 5 */}
+      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/kOrggfBgvQk"
+          title="NEET Batch Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+
+      {/* Video 6 */}
+      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/HqU7FQlY_cw"
+          title="Workshop Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
     </div>
   )
 }

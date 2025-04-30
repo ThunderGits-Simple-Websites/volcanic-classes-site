@@ -12,9 +12,7 @@ function Navbar() {
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <div className="flex items-center">
-                        <Link onClick={(()=>{
-                            setDropdownOpen(false)
-                        })} href="/" className="flex items-center space-x-2">
+                        <Link onClick={() => setDropdownOpen(false)} href="/" className="flex items-center space-x-2">
                             <img
                                 style={{ width: 150, height: 150, objectFit: 'contain' }}
                                 src="/images/logo.png"
@@ -27,27 +25,21 @@ function Navbar() {
                     {/* Desktop Menu */}
                     <div className="hidden sm:flex space-x-4 items-center">
                         <Link
-                        onClick={(()=>{
-                            setDropdownOpen(false)
-                        })}
+                            onClick={() => setDropdownOpen(false)}
                             href="/"
                             className="text-[#CE3852] hover:bg-[#CE3852] hover:text-white px-3 py-2 rounded-md text-sm font-bold"
                         >
                             Home
                         </Link>
                         <Link
-                        onClick={(()=>{
-                            setDropdownOpen(false)
-                        })}
+                            onClick={() => setDropdownOpen(false)}
                             href="/AboutUs"
                             className="text-[#CE3852] hover:bg-[#CE3852] hover:text-white px-3 py-2 rounded-md text-sm font-bold"
                         >
                             About
                         </Link>
                         <Link
-                        onClick={(()=>{
-                            setDropdownOpen(false)
-                        })}
+                            onClick={() => setDropdownOpen(false)}
                             href="/Gallery"
                             className="text-[#CE3852] hover:bg-[#CE3852] hover:text-white px-3 py-2 rounded-md text-sm font-bold"
                         >
@@ -78,18 +70,21 @@ function Navbar() {
                             {isDropdownOpen && (
                                 <div className="absolute left-0 mt-2 w-44 bg-white rounded-md shadow-lg z-50">
                                     <Link
+                                        onClick={() => setDropdownOpen(false)}
                                         href="/Courses"
                                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#CE3852] hover:text-white"
                                     >
                                         IIT‑JEE
                                     </Link>
                                     <Link
+                                        onClick={() => setDropdownOpen(false)}
                                         href="/Neet"
                                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#CE3852] hover:text-white"
                                     >
                                         NEET
                                     </Link>
                                     <Link
+                                        onClick={() => setDropdownOpen(false)}
                                         href="/Schoolboard"
                                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#CE3852] hover:text-white"
                                     >
@@ -100,9 +95,7 @@ function Navbar() {
                         </div>
 
                         <Link
-                        onClick={(()=>{
-                            setDropdownOpen(false)
-                        })}
+                            onClick={() => setDropdownOpen(false)}
                             href="/ContactUs"
                             className="text-[#CE3852] hover:bg-[#CE3852] hover:text-white px-3 py-2 rounded-md text-sm font-bold"
                         >
