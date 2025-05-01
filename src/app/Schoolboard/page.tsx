@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
     return (
         <div>
-            <section className="bg-white px-4 py-12 md:py-20">
+            <section className="bg-white px-4 pt-24 md:pt-28 pb-12 md:pb-20">
                 <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-10">
                     {/* Text Content */}
                     <div>
@@ -17,7 +17,6 @@ const page = () => {
                             Get access to high-quality video lectures, well-structured notes, regular tests, and personalized doubt-solving sessions. Our expert faculty ensures that every topic is explained in an easy-to-understand manner using real-life examples and visual demonstrations.
                         </p>
                     </div>
-
                     {/* Image */}
                     <div className="w-full flex justify-center">
                         <img
@@ -28,6 +27,7 @@ const page = () => {
                     </div>
                 </div>
             </section>
+
 
 
             <div className="bg-gradient-to-r from-[#CE3852] to-[#CE3852] p-10 rounded-t-xl shadow-xl">
@@ -172,7 +172,6 @@ const page = () => {
                     </div>
                 </div>
             </div>
-
 
         </div>
     )

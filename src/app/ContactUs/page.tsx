@@ -86,7 +86,7 @@ function page() {
                             <div className="mb-4">
                                 <h6 className="text-lg font-semibold mb-1 text-[#CE3852]">Location</h6>
                                 <p className="text-gray-600">
-                                2nd floor, Shivam Complex, Bank of Baroda building, Near, Khazanchi Rd, Naya Tola, Bhikhana Pahari, Patna, Bihar 800004
+                                2nd Floor, , Shivam Complex, Opposite Gopal Market, Annie Besant Road-800004 (Opposite Gopal Market)
                                 </p>
                             </div>
                             <div>
