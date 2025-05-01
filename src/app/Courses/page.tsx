@@ -40,7 +40,7 @@ const page = () => {
                     <div className="bg-white rounded-xl shadow-lg p-6 md:p-10 flex flex-col items-center space-y-8">
                         {/* Image */}
                         <img
-                            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=225,fit=crop/m7V5vbDyqehovVja/2022-08-04-4-YrDqZbVJy4S9qgoD.png"
+                            src="https://i.ytimg.com/vi/PRqP83O2Zag/maxresdefault.jpg"
                             alt="IIT JEE"
                             className="w-full max-w-md rounded-xl"
                         />

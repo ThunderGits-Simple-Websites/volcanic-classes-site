@@ -35,7 +35,7 @@ function page() {
                     <div>
                         <h2 className="text-4xl font-bold mb-6 text-gray-800">About Us</h2>
                         <p className="text-gray-600 leading-relaxed text-lg">
-                        Physics Classes, located in Patna, Bihar, is one of the leading coaching institutes specializing in Volcanic for students preparing for IIT JEE, NEET, and school-level exams.
+                            Physics Classes, located in Patna, Bihar, is one of the leading coaching institutes specializing in Volcanic for students preparing for IIT JEE, NEET, and school-level exams.
                             Known for its outstanding track record and commitment to excellence, the institute has earned a reputation for producing top-tier results year after year.
                             <br /><br />
                             With expert faculty, personalized attention, flexible learning formats, and a proven track record, Volcanic Classes stands as a pillar of academic excellence.
@@ -65,7 +65,7 @@ function page() {
                         </h3>
 
                         <p className="text-white text-lg font-light leading-relaxed max-w-md">
-                        Physics Classes stands out for its dedication to quality education, personalized approach, and track record of success in competitive exams. Here’s why we are the best choice for your academic journey:
+                            Physics Classes stands out for its dedication to quality education, personalized approach, and track record of success in competitive exams. Here’s why we are the best choice for your academic journey:
                         </p>
                     </div>
 
@@ -203,7 +203,7 @@ function page() {
                         <div>
                             <h3 className="text-3xl font-semibold mb-4 text-white/90">🎯 Our Mission</h3>
                             <p className="text-lg text-white/85 mb-6 leading-relaxed">
-                            Deliver high‑quality, student‑centric physics education tailored to IIT‑JEE & NEET demands, nurturing analytical thinking and building a strong foundation for future scientists, engineers and medical professionals.
+                                Deliver high‑quality, student‑centric physics education tailored to IIT‑JEE & NEET demands, nurturing analytical thinking and building a strong foundation for future scientists, engineers and medical professionals.
                             </p>
 
                             <h4 className="text-2xl font-semibold mb-4 text-white/90">Why Choose Us?</h4>
@@ -229,7 +229,7 @@ function page() {
                         <div>
                             <h3 className="text-3xl font-semibold mb-4 text-white/90">🌟 Our Vision</h3>
                             <p className="text-lg text-white/85 mb-6 leading-relaxed">
-                            To ignite a lifelong passion for Physics, empowering students with clarity, curiosity and confidence to excel in competitive arenas and beyond.
+                                To ignite a lifelong passion for Physics, empowering students with clarity, curiosity and confidence to excel in competitive arenas and beyond.
                             </p>
 
                             <h4 className="text-2xl font-semibold mb-4 text-white/90">What Makes Us Unique?</h4>
@@ -326,9 +326,9 @@ function page() {
                     </div>
 
                     {/* Image Section */}
-                    <div className="w-full max-w-[406px]  mx-auto">
+                    <div className="w-full max-w-[606px]  mx-auto">
                         <img
-                            src="/images/directorImg.png"
+                            src="https://i.ytimg.com/vi/PRqP83O2Zag/maxresdefault.jpg"
                             alt="Director"
                             className="w-full h-auto rounded-lg shadow-md object-cover"
                         />

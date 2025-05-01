@@ -5,12 +5,12 @@ const page = () => {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
   const images = [
-    "https://thebrightpath.in/assets/images/events/e1.jpeg",
-    "https://thebrightpath.in/assets/images/events/e2.jpeg",
-    "https://thebrightpath.in/assets/images/events/e3.jpeg",
-    "https://thebrightpath.in/assets/images/events/e4.jpeg",
-    "https://thebrightpath.in/assets/images/events/e5.jpeg",
-    "https://thebrightpath.in/assets/images/events/e1.jpeg",
+    "https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-for-iit-jee-bd4hz3er24.jpg",
+    "https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-for-iit-jee-ul9cqgud81.jpg",
+    "https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-for-iit-jee-jispjxz3s1.jpg",
+    "https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-for-iit-jee-y31scwdauo.jpg",
+    "https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-ubrjnui6h3.jpg",
+    "https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-for-iit-jee-y31scwdauo.jpg",
   ];
 
   const totalSlides = images.length;
@@ -150,86 +150,86 @@ const page = () => {
         </div>
       </div>
       <section className="py-24 bg-gray-100">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-4xl md:text-5xl font-bold text-center text-[#CE3852] mb-12">
-      Gallery: Top Physics Classes for JEE & NEET
-    </h2>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#CE3852] mb-12">
+            Gallery: Top Physics Classes for JEE & NEET
+          </h2>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      {/* Video 1 */}
-      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-        <iframe
-          className="w-full h-64"
-          src="https://www.youtube.com/embed/PRqP83O2Zag"
-          title="JEE Classroom Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {/* Video 1 */}
+            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+              <iframe
+                className="w-full h-64"
+                src="https://www.youtube.com/embed/PRqP83O2Zag"
+                title="JEE Classroom Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
 
-      {/* Video 2 */}
-      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-        <iframe
-          className="w-full h-64"
-          src="https://www.youtube.com/embed/TFREcIRib2Y"
-          title="NEET Lab Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
+            {/* Video 2 */}
+            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+              <iframe
+                className="w-full h-64"
+                src="https://www.youtube.com/embed/TFREcIRib2Y"
+                title="NEET Lab Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
 
-      {/* Video 3 */}
-      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-        <iframe
-          className="w-full h-64"
-          src="https://www.youtube.com/embed/bv11vcFBLEU"
-          title="Teacher Interaction Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
+            {/* Video 3 */}
+            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+              <iframe
+                className="w-full h-64"
+                src="https://www.youtube.com/embed/bv11vcFBLEU"
+                title="Teacher Interaction Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
 
-      {/* Video 4 */}
-      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-        <iframe
-          className="w-full h-64"
-          src="https://www.youtube.com/embed/2xplWGp9CDs"
-          title="JEE Batch Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
+            {/* Video 4 */}
+            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+              <iframe
+                className="w-full h-64"
+                src="https://www.youtube.com/embed/2xplWGp9CDs"
+                title="JEE Batch Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
 
-      {/* Video 5 */}
-      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-        <iframe
-          className="w-full h-64"
-          src="https://www.youtube.com/embed/kOrggfBgvQk"
-          title="NEET Batch Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
+            {/* Video 5 */}
+            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+              <iframe
+                className="w-full h-64"
+                src="https://www.youtube.com/embed/kOrggfBgvQk"
+                title="NEET Batch Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
 
-      {/* Video 6 */}
-      <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-        <iframe
-          className="w-full h-64"
-          src="https://www.youtube.com/embed/HqU7FQlY_cw"
-          title="Workshop Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-    </div>
-  </div>
-</section>
+            {/* Video 6 */}
+            <div className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+              <iframe
+                className="w-full h-64"
+                src="https://www.youtube.com/embed/HqU7FQlY_cw"
+                title="Workshop Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </div>
   )

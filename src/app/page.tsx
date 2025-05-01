@@ -3,13 +3,13 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const HeroSection = () => {
-    const [isModalOpen, setIsModalOpen] = useState(false);  // State to manage modal visibility
-    const [input1, setInput1] = useState(""); // First input value
-    const [input2, setInput2] = useState(""); // Second input value
-    const [input3, setInput3] = useState(""); // Second input value
+    const [isModalOpen, setIsModalOpen] = useState(false);  
+    const [input1, setInput1] = useState("");
+    const [input2, setInput2] = useState(""); 
+    const [input3, setInput3] = useState(""); 
     const [selectedOption, setSelectedOption] = useState('');
     useEffect(() => {
-        setIsModalOpen(true); // Set modal to open when component mounts
+        setIsModalOpen(true); 
     }, []);
 
     // Function to close modal
@@ -26,7 +26,7 @@ const HeroSection = () => {
         console.log("Input 1:", input1);
         console.log("Input 2:", input2);
         console.log("Input 3:", input3);
-        closeModal(); // Close the modal after submission
+        closeModal(); 
     };
 
     return (
