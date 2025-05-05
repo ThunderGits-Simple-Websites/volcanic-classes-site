@@ -3,7 +3,7 @@ import React from 'react'
 function page() {
     return (
         <div>
-            <section className="bg-white py-12 px-4 md:px-8 lg:px-16 pt-24"> {/* Added pt-24 for top padding */}
+            <section className="bg-white py-12 px-4 md:px-8 lg:px-16 pt-24">
                 <div className="flex justify-center">
                     <div
                         className="layout-element__component layout-element__component--GridTextBox text-center w-full max-w-xl px-4"
@@ -72,9 +72,11 @@ function page() {
                     </div>
                 </div>
             </section>
-            <section >
+
+            {/* Contact Info & Map Section - Centered */}
+            <section>
                 <div className="bg-white py-8 px-4 lg:px-16">
-                    <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-16">
+                    <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-start gap-12 lg:gap-16">
                         {/* Left Column - Text Content */}
                         <div className="flex-1 max-w-xl">
                             <div className="mb-6">
@@ -86,7 +88,7 @@ function page() {
                             <div className="mb-4">
                                 <h6 className="text-lg font-semibold mb-1 text-[#CE3852]">Location</h6>
                                 <p className="text-gray-600">
-                                2nd Floor, , Shivam Complex, Opposite Gopal Market, Annie Besant Road-800004 (Opposite Gopal Market)
+                                    2nd Floor, Shivam Complex, Opposite Gopal Market, Annie Besant Road-800004 (Opposite Gopal Market)
                                 </p>
                             </div>
                             <div>
@@ -106,10 +108,8 @@ function page() {
                         </div>
                     </div>
                 </div>
-
             </section>
         </div>
     )
 }
-
 export default page
