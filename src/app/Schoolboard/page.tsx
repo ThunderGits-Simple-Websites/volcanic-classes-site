@@ -97,7 +97,7 @@ const page = () => {
             </div>
             <div className="p-12 rounded-t-xl shadow-xl space-y-8">
                 <div className="bg-gradient-to-r from-[#CE3852] to-[#CE3852] p-8 rounded-lg shadow-xl text-white space-y-8">
-                    <h2 className="text-4xl font-bold text-center mb-8">
+                    <h2 className="text-4xl font-bold text-center text-white mb-8">
                         📝 Effective Study Strategies & Resources for 11th & 12th Students
                     </h2>
 

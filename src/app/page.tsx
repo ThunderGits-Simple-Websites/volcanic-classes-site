@@ -176,7 +176,7 @@ const HeroSection = () => {
                 {/* Right image */}
                 <div className="flex justify-center items-center">
                     <img
-                        src="https://images.jdmagicbox.com/comp/patna/p5/0612px612.x612.140515173853.z9p5/catalogue/volcanic-classes-ashok-raj-path-patna-tutorials-1nmrl0c.jpg"
+                        src="https://i.ytimg.com/vi/PRqP83O2Zag/maxresdefault.jpg"
                         alt="Rajesh Physics Classes"
                         className="w-full h-auto max-w-[606px] max-h-[455px] object-contain"
                     />

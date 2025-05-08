@@ -46,7 +46,7 @@ function page() {
                     {/* Optional Image or Icon */}
                     <div className="flex justify-center">
                         <img
-                            src="https://images.jdmagicbox.com/comp/patna/dc/0612px612.x612.110629141907.r1c7dc/catalogue/volcanic-classes-pmc-hospital-patna-tutorials-ubrjnui6h3.jpg"
+                            src="/images/aboutneet.png"
                             alt="Physics Coaching"
                             className="w-full max-w-lg h-auto object-cover"
                         />
@@ -79,7 +79,7 @@ function page() {
                                     </div>
                                     <div>
                                         <p className="font-semibold">Expert Guidance</p>
-                                        <p>Our experienced faculty members provide expert guidance to simplify complex concepts, helping students build a deep understanding of Physics.</p>
+                                        <p>Anand Kumar Sir, noted as an “eminent and reliable physics mentor” by the local coaching fraternity, has mentored thousands of toppers over 15 + year</p>
                                     </div>
                                 </div>
                             </li>
@@ -89,8 +89,8 @@ function page() {
                                         <i className="fas fa-user-tie"></i> {/* Replace with any icon of choice */}
                                     </div>
                                     <div>
-                                        <p className="font-semibold">Customized One-to-One Tuition</p>
-                                        <p>Get personalized, one-on-one tuition (both online and offline) tailored to your learning style and pace, ensuring effective progress.</p>
+                                        <p className="font-semibold">Hybrid Learning Model </p>
+                                        <p>Attend smart‑board lectures at our Naya Tola centre or stream live/recorded classes on the Volcanic Learning App for flexible, anywhere preparation.</p>
                                     </div>
                                 </div>
                             </li>
@@ -100,8 +100,8 @@ function page() {
                                         <i className="fas fa-book-open"></i> {/* Replace with any icon of choice */}
                                     </div>
                                     <div>
-                                        <p className="font-semibold">Comprehensive Course Offerings</p>
-                                        <p>We offer coaching for IIT JEE, NEET, and school exams, focusing on building a strong foundation and developing problem-solving skills.</p>
+                                        <p className="font-semibold">Concept‑First, Application‑Ready</p>
+                                        <p>Each chapter starts with in‑depth theory, followed by real‑life demos and structured problem sets to cement understanding.</p>
                                     </div>
                                 </div>
                             </li>
@@ -111,8 +111,41 @@ function page() {
                                         <i className="fas fa-laptop-house"></i> {/* Replace with any icon of choice */}
                                     </div>
                                     <div>
-                                        <p className="font-semibold">Online & Offline Flexibility</p>
+                                        <p className="font-semibold">Personalised Mentorship & Doubt‑Support</p>
                                         <p>We offer both online and offline classes, allowing students to choose the learning format that best suits their schedules and preferences.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="p-6 bg-[#9C2746] rounded-lg shadow-md transform hover:scale-105 transition-all duration-300 ease-in-out">
+                                <div className="flex items-start space-x-4">
+                                    <div className="text-3xl text-white">
+                                        <i className="fas fa-laptop-house"></i> {/* Replace with any icon of choice */}
+                                    </div>
+                                    <div>
+                                        <p className="font-semibold">Exam‑Oriented Strategy	</p>
+                                        <p>Weekly mock tests, past‑year question drills and timed quizzes mirror JEE/NEET patterns for peak exam temperament.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="p-6 bg-[#9C2746] rounded-lg shadow-md transform hover:scale-105 transition-all duration-300 ease-in-out">
+                                <div className="flex items-start space-x-4">
+                                    <div className="text-3xl text-white">
+                                        <i className="fas fa-laptop-house"></i> {/* Replace with any icon of choice */}
+                                    </div>
+                                    <div>
+                                        <p className="font-semibold">Proven Results</p>
+                                        <p>200 + NEET selections and multiple top AIRs in JEE Advanced 2024; 100 + students scored above 95 % in boards.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="p-6 bg-[#9C2746] rounded-lg shadow-md transform hover:scale-105 transition-all duration-300 ease-in-out">
+                                <div className="flex items-start space-x-4">
+                                    <div className="text-3xl text-white">
+                                        <i className="fas fa-laptop-house"></i> {/* Replace with any icon of choice */}
+                                    </div>
+                                    <div>
+                                        <p className="font-semibold">Located in Patna, Rooted in Success</p>
+                                        <p>Conveniently placed at Shivam Complex, Opp. Gopal Market, Naya Tola (Patna‑4) with easy access to the city’s academic hub.</p>
                                     </div>
                                 </div>
                             </li>
